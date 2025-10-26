@@ -47,7 +47,7 @@ const Footer = () => {
                   display: 'inline-flex',
                   alignItems: 'center',
                   gap: '8px',
-                  color: '#E63946',
+                  color: '#b31b1b',
                   textDecoration: 'none',
                   fontSize: '14px',
                   fontWeight: 600,
@@ -88,7 +88,7 @@ const Footer = () => {
                       fontSize: '14px',
                       transition: 'color 0.3s',
                     }}
-                    onMouseEnter={(e) => (e.target.style.color = '#E63946')}
+                    onMouseEnter={(e) => (e.target.style.color = '#b31b1b')}
                     onMouseLeave={(e) => (e.target.style.color = '#999')}
                   >
                     {link.label}
@@ -127,7 +127,7 @@ const Footer = () => {
                       fontSize: '14px',
                       transition: 'color 0.3s',
                     }}
-                    onMouseEnter={(e) => (e.target.style.color = '#E63946')}
+                    onMouseEnter={(e) => (e.target.style.color = '#b31b1b')}
                     onMouseLeave={(e) => (e.target.style.color = '#999')}
                   >
                     {link.label}
@@ -189,7 +189,7 @@ const Footer = () => {
                   to="/contact"
                   data-testid="footer-contact-form"
                   style={{
-                    color: '#E63946',
+                    color: '#b31b1b',
                     textDecoration: 'none',
                     fontSize: '14px',
                     fontWeight: 600,

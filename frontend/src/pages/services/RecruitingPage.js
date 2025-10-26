@@ -34,7 +34,7 @@ const RecruitingPage = () => {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '32px' }}>
             {domains.map((domain, i) => (
               <div key={i} className="card" style={{ textAlign: 'center' }}>
-                <div style={{ color: '#E63946', marginBottom: '16px' }}>{domain.icon}</div>
+                <div style={{ color: '#b31b1b', marginBottom: '16px' }}>{domain.icon}</div>
                 <h3 style={{ fontSize: '22px', marginBottom: '12px' }}>{domain.title}</h3>
                 <p style={{ color: '#666', fontSize: '15px' }}>{domain.desc}</p>
               </div>

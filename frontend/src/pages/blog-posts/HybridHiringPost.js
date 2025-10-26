@@ -9,12 +9,12 @@ const HybridHiringPost = () => {
     <div>
       <Header />
       <div className="container" style={{ maxWidth: '800px', padding: '60px 20px' }}>
-        <Link to="/blog" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: '#E63946', textDecoration: 'none', marginBottom: '32px', fontWeight: 600 }}>
+        <Link to="/blog" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: '#b31b1b', textDecoration: 'none', marginBottom: '32px', fontWeight: 600 }}>
           <ArrowLeft size={20} /> Back to Blog
         </Link>
         
         <div style={{ marginBottom: '32px' }}>
-          <div style={{ display: 'inline-block', background: '#E63946', color: '#FFFFFF', padding: '6px 16px', borderRadius: '4px', fontSize: '14px', fontWeight: 600, marginBottom: '16px' }}>
+          <div style={{ display: 'inline-block', background: '#b31b1b', color: '#FFFFFF', padding: '6px 16px', borderRadius: '4px', fontSize: '14px', fontWeight: 600, marginBottom: '16px' }}>
             B2B • January 2025
           </div>
           <h1 style={{ fontSize: 'clamp(32px, 5vw, 48px)', marginBottom: '16px', lineHeight: '1.2' }}>
@@ -68,7 +68,7 @@ const HybridHiringPost = () => {
             The future of recruiting isn't purely automated or purely manual—it's hybrid. And that future is arriving faster than most companies realize.
           </p>
 
-          <div style={{ marginTop: '64px', padding: '32px', background: '#F5F5F5', borderRadius: '12px', borderLeft: '4px solid #E63946' }}>
+          <div style={{ marginTop: '64px', padding: '32px', background: '#F5F5F5', borderRadius: '12px', borderLeft: '4px solid #b31b1b' }}>
             <h3 style={{ fontSize: '24px', marginBottom: '16px' }}>Experience Modern Recruiting</h3>
             <p style={{ marginBottom: '24px', fontSize: '16px' }}>
               See how our hybrid approach combines AI precision with human expertise to deliver exceptional hires.

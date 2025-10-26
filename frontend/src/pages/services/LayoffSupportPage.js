@@ -32,7 +32,7 @@ const LayoffSupportPage = () => {
       <Header />
       <section className="hero" style={{ padding: '120px 0' }}>
         <div className="container" style={{ textAlign: 'center' }}>
-          <Heart size={60} style={{ color: '#E63946', margin: '0 auto 24px' }} />
+          <Heart size={60} style={{ color: '#b31b1b', margin: '0 auto 24px' }} />
           <h1 style={{ fontSize: 'clamp(32px, 5vw, 52px)', marginBottom: '24px' }}>
             Layoff Support & Outplacement
           </h1>
@@ -44,8 +44,8 @@ const LayoffSupportPage = () => {
 
       <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
-          <div className="card" style={{ background: '#FFF5F5', border: '2px solid #E63946', marginBottom: '48px', textAlign: 'center' }}>
-            <h3 style={{ fontSize: '24px', marginBottom: '16px', color: '#E63946' }}>Free 30-Minute Career Call</h3>
+          <div className="card" style={{ background: '#FFF5F5', border: '2px solid #b31b1b', marginBottom: '48px', textAlign: 'center' }}>
+            <h3 style={{ fontSize: '24px', marginBottom: '16px', color: '#b31b1b' }}>Free 30-Minute Career Call</h3>
             <p style={{ fontSize: '16px', color: '#666', marginBottom: '24px' }}>
               Been laid off? Let's talk. No sales pitch. Just honest guidance on your next move.
             </p>
@@ -59,26 +59,26 @@ const LayoffSupportPage = () => {
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '32px' }}>
             {packages.map((pkg, i) => (
-              <div key={i} className="card" style={{ border: pkg.featured ? '3px solid #E63946' : 'none', position: 'relative' }}>
+              <div key={i} className="card" style={{ border: pkg.featured ? '3px solid #b31b1b' : 'none', position: 'relative' }}>
                 {pkg.featured && (
-                  <div style={{ position: 'absolute', top: '-12px', left: '50%', transform: 'translateX(-50%)', background: '#E63946', color: '#FFFFFF', padding: '6px 16px', borderRadius: '20px', fontSize: '12px', fontWeight: 600 }}>
+                  <div style={{ position: 'absolute', top: '-12px', left: '50%', transform: 'translateX(-50%)', background: '#b31b1b', color: '#FFFFFF', padding: '6px 16px', borderRadius: '20px', fontSize: '12px', fontWeight: 600 }}>
                     MOST POPULAR
                   </div>
                 )}
                 <h3 style={{ fontSize: '24px', marginBottom: '8px' }}>{pkg.name}</h3>
                 <p style={{ color: '#666', marginBottom: '16px' }}>{pkg.duration}</p>
                 <div style={{ marginBottom: '24px' }}>
-                  <span style={{ fontSize: '32px', fontWeight: 700, color: '#E63946' }}>{pkg.price}</span>
+                  <span style={{ fontSize: '32px', fontWeight: 700, color: '#b31b1b' }}>{pkg.price}</span>
                 </div>
                 <ul style={{ listStyle: 'none', padding: 0, marginBottom: '32px' }}>
                   {pkg.features.map((f, j) => (
                     <li key={j} style={{ display: 'flex', gap: '12px', marginBottom: '12px', fontSize: '15px' }}>
-                      <Check size={20} style={{ color: '#E63946', flexShrink: 0 }} />
+                      <Check size={20} style={{ color: '#b31b1b', flexShrink: 0 }} />
                       {f}
                     </li>
                   ))}
                 </ul>
-                <Link to="/contact" className="btn" style={{ width: '100%', background: pkg.featured ? '#E63946' : 'transparent', color: pkg.featured ? '#FFFFFF' : '#E63946', border: pkg.featured ? 'none' : '2px solid #E63946' }}>
+                <Link to="/contact" className="btn" style={{ width: '100%', background: pkg.featured ? '#b31b1b' : 'transparent', color: pkg.featured ? '#FFFFFF' : '#b31b1b', border: pkg.featured ? 'none' : '2px solid #b31b1b' }}>
                   Get Started
                 </Link>
               </div>

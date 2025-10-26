@@ -9,7 +9,7 @@ const LayoffComebackPost = () => {
     <div>
       <Header />
       <div className="container" style={{ maxWidth: '800px', padding: '60px 20px' }}>
-        <Link to="/blog" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: '#E63946', textDecoration: 'none', marginBottom: '32px', fontWeight: 600 }}>
+        <Link to="/blog" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: '#b31b1b', textDecoration: 'none', marginBottom: '32px', fontWeight: 600 }}>
           <ArrowLeft size={20} /> Back to Blog
         </Link>
         <div style={{ marginBottom: '32px' }}>
@@ -63,7 +63,7 @@ const LayoffComebackPost = () => {
           <p style={{ marginBottom: '24px' }}>
             Most people land within 45-90 days. Many find better opportunities than they had before. You will too. This is temporary.
           </p>
-          <div style={{ marginTop: '64px', padding: '32px', background: '#F5F5F5', borderRadius: '12px', borderLeft: '4px solid #E63946' }}>
+          <div style={{ marginTop: '64px', padding: '32px', background: '#F5F5F5', borderRadius: '12px', borderLeft: '4px solid #b31b1b' }}>
             <h3 style={{ fontSize: '24px', marginBottom: '16px' }}>Need Support?</h3>
             <p style={{ marginBottom: '24px', fontSize: '16px' }}>
               We offer free 30-minute career strategy calls for people affected by layoffs. Let's figure out your next move together.

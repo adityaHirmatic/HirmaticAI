@@ -74,15 +74,15 @@ const Header = () => {
                 to={link.to}
                 data-testid={`nav-${link.label.toLowerCase().replace(/\s+/g, '-')}`}
                 style={{
-                  color: location.pathname === link.to ? '#E63946' : '#FFFFFF',
+                  color: location.pathname === link.to ? '#b31b1b' : '#FFFFFF',
                   textDecoration: 'none',
                   fontSize: '15px',
                   fontWeight: 600,
                   transition: 'color 0.3s',
                 }}
-                onMouseEnter={(e) => (e.target.style.color = '#E63946')}
+                onMouseEnter={(e) => (e.target.style.color = '#b31b1b')}
                 onMouseLeave={(e) =>
-                  (e.target.style.color = location.pathname === link.to ? '#E63946' : '#FFFFFF')
+                  (e.target.style.color = location.pathname === link.to ? '#b31b1b' : '#FFFFFF')
                 }
               >
                 {link.label}
@@ -94,7 +94,7 @@ const Header = () => {
               rel="noopener noreferrer"
               data-testid="linkedin-button"
               style={{
-                background: '#E63946',
+                background: '#b31b1b',
                 color: '#FFFFFF',
                 padding: '10px 20px',
                 borderRadius: '6px',
@@ -107,7 +107,7 @@ const Header = () => {
                 transition: 'background 0.3s',
               }}
               onMouseEnter={(e) => (e.target.style.background = '#d32735')}
-              onMouseLeave={(e) => (e.target.style.background = '#E63946')}
+              onMouseLeave={(e) => (e.target.style.background = '#b31b1b')}
             >
               <Linkedin size={18} />
               LinkedIn
@@ -153,7 +153,7 @@ const Header = () => {
                 to={link.to}
                 data-testid={`mobile-nav-${link.label.toLowerCase().replace(/\s+/g, '-')}`}
                 style={{
-                  color: location.pathname === link.to ? '#E63946' : '#FFFFFF',
+                  color: location.pathname === link.to ? '#b31b1b' : '#FFFFFF',
                   textDecoration: 'none',
                   fontSize: '16px',
                   fontWeight: 600,
@@ -169,7 +169,7 @@ const Header = () => {
               rel="noopener noreferrer"
               data-testid="mobile-linkedin-button"
               style={{
-                background: '#E63946',
+                background: '#b31b1b',
                 color: '#FFFFFF',
                 padding: '12px 20px',
                 borderRadius: '6px',

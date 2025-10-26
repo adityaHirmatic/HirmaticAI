@@ -57,7 +57,7 @@ const AboutPage = () => {
           >
             You Don't Need Our Story.
             <br />
-            <span style={{ color: '#E63946' }}>You Need Our Results.</span>
+            <span style={{ color: '#b31b1b' }}>You Need Our Results.</span>
           </h1>
           <p
             style={{
@@ -87,25 +87,25 @@ const AboutPage = () => {
               }}
             >
               <div data-testid="stat-total-placements" className="card">
-                <div style={{ fontSize: '52px', fontWeight: 700, color: '#E63946', marginBottom: '12px' }}>
+                <div style={{ fontSize: '52px', fontWeight: 700, color: '#b31b1b', marginBottom: '12px' }}>
                   {stats.total_placements}+
                 </div>
                 <div style={{ fontSize: '18px', color: '#666', fontWeight: 600 }}>Engineers Placed</div>
               </div>
               <div data-testid="stat-avg-time" className="card">
-                <div style={{ fontSize: '52px', fontWeight: 700, color: '#E63946', marginBottom: '12px' }}>
+                <div style={{ fontSize: '52px', fontWeight: 700, color: '#b31b1b', marginBottom: '12px' }}>
                   {stats.avg_time_to_offer}
                 </div>
                 <div style={{ fontSize: '18px', color: '#666', fontWeight: 600 }}>Days Avg Time-to-Offer</div>
               </div>
               <div data-testid="stat-client-retention" className="card">
-                <div style={{ fontSize: '52px', fontWeight: 700, color: '#E63946', marginBottom: '12px' }}>
+                <div style={{ fontSize: '52px', fontWeight: 700, color: '#b31b1b', marginBottom: '12px' }}>
                   {stats.client_retention}%
                 </div>
                 <div style={{ fontSize: '18px', color: '#666', fontWeight: 600 }}>Client Retention</div>
               </div>
               <div data-testid="stat-domains" className="card">
-                <div style={{ fontSize: '52px', fontWeight: 700, color: '#E63946', marginBottom: '12px' }}>5</div>
+                <div style={{ fontSize: '52px', fontWeight: 700, color: '#b31b1b', marginBottom: '12px' }}>5</div>
                 <div style={{ fontSize: '18px', color: '#666', fontWeight: 600 }}>Industry Domains</div>
               </div>
             </div>
@@ -134,7 +134,7 @@ const AboutPage = () => {
           >
             {reasons.map((reason, index) => (
               <div key={index} data-testid={`reason-${index}`} className="card">
-                <div style={{ color: '#E63946', marginBottom: '20px' }}>{reason.icon}</div>
+                <div style={{ color: '#b31b1b', marginBottom: '20px' }}>{reason.icon}</div>
                 <h3 style={{ fontSize: '24px', marginBottom: '16px' }}>{reason.title}</h3>
                 <p style={{ color: '#666', fontSize: '16px', lineHeight: '1.6' }}>{reason.desc}</p>
               </div>
@@ -152,7 +152,7 @@ const AboutPage = () => {
         }}
       >
         <div className="container" style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto' }}>
-          <Trophy size={60} style={{ color: '#E63946', marginBottom: '24px' }} />
+          <Trophy size={60} style={{ color: '#b31b1b', marginBottom: '24px' }} />
           <h2 style={{ fontSize: 'clamp(28px, 4vw, 38px)', marginBottom: '24px' }}>
             Our Mission
           </h2>

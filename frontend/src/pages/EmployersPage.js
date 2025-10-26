@@ -121,7 +121,7 @@ const EmployersPage = () => {
           >
             Precision Hiring for
             <br />
-            <span style={{ color: '#E63946' }}>Growth-Stage Tech Companies</span>
+            <span style={{ color: '#b31b1b' }}>Growth-Stage Tech Companies</span>
           </h1>
           <p
             style={{
@@ -241,7 +241,7 @@ const EmployersPage = () => {
               className="card"
               style={{
                 marginTop: '32px',
-                background: quizResult.level === 'HIGH' ? '#E63946' : '#F5F5F5',
+                background: quizResult.level === 'HIGH' ? '#b31b1b' : '#F5F5F5',
                 color: quizResult.level === 'HIGH' ? '#FFFFFF' : '#1A1A1A',
               }}
             >
@@ -260,8 +260,8 @@ const EmployersPage = () => {
                 data-testid="quiz-cta"
                 className="btn"
                 style={{
-                  background: quizResult.level === 'HIGH' ? '#FFFFFF' : '#E63946',
-                  color: quizResult.level === 'HIGH' ? '#E63946' : '#FFFFFF',
+                  background: quizResult.level === 'HIGH' ? '#FFFFFF' : '#b31b1b',
+                  color: quizResult.level === 'HIGH' ? '#b31b1b' : '#FFFFFF',
                 }}
               >
                 Contact Us Now
@@ -296,7 +296,7 @@ const EmployersPage = () => {
                 data-testid={`pricing-tier-${tier.name.toLowerCase()}`}
                 className="card"
                 style={{
-                  border: tier.featured ? '3px solid #E63946' : 'none',
+                  border: tier.featured ? '3px solid #b31b1b' : 'none',
                   position: 'relative',
                 }}
               >
@@ -307,7 +307,7 @@ const EmployersPage = () => {
                       top: '-12px',
                       left: '50%',
                       transform: 'translateX(-50%)',
-                      background: '#E63946',
+                      background: '#b31b1b',
                       color: '#FFFFFF',
                       padding: '6px 16px',
                       borderRadius: '20px',
@@ -320,7 +320,7 @@ const EmployersPage = () => {
                 )}
                 <h3 style={{ fontSize: '24px', marginBottom: '16px' }}>{tier.name}</h3>
                 <div style={{ marginBottom: '24px' }}>
-                  <span style={{ fontSize: '42px', fontWeight: 700, color: '#E63946' }}>{tier.price}</span>
+                  <span style={{ fontSize: '42px', fontWeight: 700, color: '#b31b1b' }}>{tier.price}</span>
                   <span style={{ fontSize: '16px', color: '#666' }}>{tier.period}</span>
                 </div>
                 <ul style={{ listStyle: 'none', padding: 0, marginBottom: '32px' }}>
@@ -335,7 +335,7 @@ const EmployersPage = () => {
                         fontSize: '15px',
                       }}
                     >
-                      <Check size={20} style={{ color: '#E63946', flexShrink: 0, marginTop: '2px' }} />
+                      <Check size={20} style={{ color: '#b31b1b', flexShrink: 0, marginTop: '2px' }} />
                       {feature}
                     </li>
                   ))}
@@ -346,9 +346,9 @@ const EmployersPage = () => {
                   className="btn"
                   style={{
                     width: '100%',
-                    background: tier.featured ? '#E63946' : 'transparent',
-                    color: tier.featured ? '#FFFFFF' : '#E63946',
-                    border: tier.featured ? 'none' : '2px solid #E63946',
+                    background: tier.featured ? '#b31b1b' : 'transparent',
+                    color: tier.featured ? '#FFFFFF' : '#b31b1b',
+                    border: tier.featured ? 'none' : '2px solid #b31b1b',
                   }}
                 >
                   {tier.cta}
@@ -385,7 +385,7 @@ const EmployersPage = () => {
                     width: '70px',
                     height: '70px',
                     borderRadius: '50%',
-                    background: '#E63946',
+                    background: '#b31b1b',
                     color: '#FFFFFF',
                     display: 'flex',
                     alignItems: 'center',

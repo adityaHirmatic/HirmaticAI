@@ -117,7 +117,7 @@ const BlogPage = () => {
                 <div
                   style={{
                     display: 'inline-block',
-                    background: post.category === 'B2B' ? '#E63946' : '#A8DADC',
+                    background: post.category === 'B2B' ? '#b31b1b' : '#A8DADC',
                     color: post.category === 'B2B' ? '#FFFFFF' : '#0A0A0A',
                     padding: '6px 12px',
                     borderRadius: '4px',
@@ -146,7 +146,7 @@ const BlogPage = () => {
                     <Clock size={16} />
                     {post.readTime}
                   </div>
-                  <div style={{ color: '#E63946', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <div style={{ color: '#b31b1b', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '4px' }}>
                     Read More <ArrowRight size={16} />
                   </div>
                 </div>

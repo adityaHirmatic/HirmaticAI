@@ -12,7 +12,7 @@ Complete production-ready website for Hirmatic, an AI-powered HR tech consulting
 
 **Brand Identity:**
 - Primary: Obsidian Black (#0A0A0A)
-- Accent: Crimson Red (#E63946)
+- Accent: Crimson Red (#b31b1b)
 - Hover: Soft Teal (#A8DADC)
 
 ## ✨ Features Implemented

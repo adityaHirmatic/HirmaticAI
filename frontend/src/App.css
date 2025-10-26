@@ -30,13 +30,13 @@ html {
 
 /* Selection color */
 ::selection {
-  background: #E63946;
+  background: #b31b1b;
   color: #FFFFFF;
 }
 
 /* Focus styles */
 *:focus-visible {
-  outline: 2px solid #E63946;
+  outline: 2px solid #b31b1b;
   outline-offset: 2px;
 }
 
@@ -107,7 +107,7 @@ html {
 }
 
 .text-accent {
-  color: #E63946;
+  color: #b31b1b;
 }
 
 .text-muted {
@@ -119,7 +119,7 @@ html {
 }
 
 .bg-accent {
-  background-color: #E63946;
+  background-color: #b31b1b;
 }
 
 .bg-section {
@@ -167,7 +167,7 @@ html {
 }
 
 .btn-primary {
-  background: #E63946;
+  background: #b31b1b;
   color: #FFFFFF;
 }
 
@@ -177,12 +177,12 @@ html {
 
 .btn-secondary {
   background: transparent;
-  color: #E63946;
-  border: 2px solid #E63946;
+  color: #b31b1b;
+  border: 2px solid #b31b1b;
 }
 
 .btn-secondary:hover {
-  background: #E63946;
+  background: #b31b1b;
   color: #FFFFFF;
 }
 
@@ -242,7 +242,7 @@ html {
 
 .spinner {
   border: 3px solid #F5F5F5;
-  border-top-color: #E63946;
+  border-top-color: #b31b1b;
   border-radius: 50%;
   width: 40px;
   height: 40px;

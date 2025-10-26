@@ -115,7 +115,7 @@ const UploadResumePage = () => {
           >
             Upload Your Resume for
             <br />
-            <span style={{ color: '#E63946' }}>a Free Review</span>
+            <span style={{ color: '#b31b1b' }}>a Free Review</span>
           </h1>
           <p
             style={{
@@ -213,7 +213,7 @@ const UploadResumePage = () => {
                 </label>
                 <div
                   style={{
-                    border: '2px dashed #E63946',
+                    border: '2px dashed #b31b1b',
                     borderRadius: '8px',
                     padding: '40px 20px',
                     textAlign: 'center',
@@ -222,7 +222,7 @@ const UploadResumePage = () => {
                   }}
                   onClick={() => document.getElementById('resume').click()}
                 >
-                  <Upload size={48} style={{ color: '#E63946', margin: '0 auto 16px' }} />
+                  <Upload size={48} style={{ color: '#b31b1b', margin: '0 auto 16px' }} />
                   <p style={{ fontSize: '16px', marginBottom: '8px', fontWeight: 600 }}>
                     {file ? file.name : 'Click to upload or drag and drop'}
                   </p>
@@ -270,7 +270,7 @@ const UploadResumePage = () => {
             </form>
           ) : (
             <div data-testid="success-message" className="card" style={{ textAlign: 'center' }}>
-              <CheckCircle size={64} style={{ color: '#E63946', margin: '0 auto 24px' }} />
+              <CheckCircle size={64} style={{ color: '#b31b1b', margin: '0 auto 24px' }} />
               <h2 style={{ fontSize: '32px', marginBottom: '16px' }}>Resume Received!</h2>
               <p style={{ fontSize: '18px', color: '#666', marginBottom: '24px' }}>
                 Thank you for submitting your resume. Our team will review it and send you detailed
@@ -309,7 +309,7 @@ const UploadResumePage = () => {
           >
             {nextSteps.map((step, index) => (
               <div key={index} data-testid={`next-step-${index}`} className="card" style={{ textAlign: 'center' }}>
-                <div style={{ color: '#E63946', marginBottom: '20px' }}>{step.icon}</div>
+                <div style={{ color: '#b31b1b', marginBottom: '20px' }}>{step.icon}</div>
                 <h3 style={{ fontSize: '22px', marginBottom: '12px' }}>{step.title}</h3>
                 <p style={{ color: '#666', fontSize: '16px', lineHeight: '1.6' }}>{step.desc}</p>
               </div>

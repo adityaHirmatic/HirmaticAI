@@ -59,7 +59,7 @@ const SalaryCalculatorPage = () => {
 
       <section className="hero" data-testid="salary-calculator-hero" style={{ padding: '120px 0 80px' }}>
         <div className="container" style={{ textAlign: 'center' }}>
-          <DollarSign size={60} style={{ color: '#E63946', margin: '0 auto 24px' }} />
+          <DollarSign size={60} style={{ color: '#b31b1b', margin: '0 auto 24px' }} />
           <h1
             data-testid="salary-calculator-title"
             style={{
@@ -193,7 +193,7 @@ const SalaryCalculatorPage = () => {
               className="card"
               style={{
                 marginTop: '32px',
-                background: 'linear-gradient(135deg, #E63946 0%, #d32735 100%)',
+                background: 'linear-gradient(135deg, #b31b1b 0%, #d32735 100%)',
                 color: '#FFFFFF',
               }}
             >

@@ -48,26 +48,26 @@ const ResumeBuildingPage = () => {
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '32px' }}>
             {tiers.map((tier, i) => (
-              <div key={i} className="card" style={{ border: tier.featured ? '3px solid #E63946' : 'none', position: 'relative' }}>
+              <div key={i} className="card" style={{ border: tier.featured ? '3px solid #b31b1b' : 'none', position: 'relative' }}>
                 {tier.featured && (
-                  <div style={{ position: 'absolute', top: '-12px', left: '50%', transform: 'translateX(-50%)', background: '#E63946', color: '#FFFFFF', padding: '6px 16px', borderRadius: '20px', fontSize: '12px', fontWeight: 600 }}>
+                  <div style={{ position: 'absolute', top: '-12px', left: '50%', transform: 'translateX(-50%)', background: '#b31b1b', color: '#FFFFFF', padding: '6px 16px', borderRadius: '20px', fontSize: '12px', fontWeight: 600 }}>
                     MOST POPULAR
                   </div>
                 )}
                 <h3 style={{ fontSize: '24px', marginBottom: '8px' }}>{tier.name}</h3>
                 <p style={{ color: '#666', marginBottom: '16px' }}>{tier.level}</p>
                 <div style={{ marginBottom: '24px' }}>
-                  <span style={{ fontSize: '38px', fontWeight: 700, color: '#E63946' }}>{tier.price}</span>
+                  <span style={{ fontSize: '38px', fontWeight: 700, color: '#b31b1b' }}>{tier.price}</span>
                 </div>
                 <ul style={{ listStyle: 'none', padding: 0, marginBottom: '32px' }}>
                   {tier.features.map((f, j) => (
                     <li key={j} style={{ display: 'flex', gap: '12px', marginBottom: '12px', fontSize: '15px' }}>
-                      <Check size={20} style={{ color: '#E63946', flexShrink: 0 }} />
+                      <Check size={20} style={{ color: '#b31b1b', flexShrink: 0 }} />
                       {f}
                     </li>
                   ))}
                 </ul>
-                <Link to="/contact" className="btn" style={{ width: '100%', background: tier.featured ? '#E63946' : 'transparent', color: tier.featured ? '#FFFFFF' : '#E63946', border: tier.featured ? 'none' : '2px solid #E63946' }}>
+                <Link to="/contact" className="btn" style={{ width: '100%', background: tier.featured ? '#b31b1b' : 'transparent', color: tier.featured ? '#FFFFFF' : '#b31b1b', border: tier.featured ? 'none' : '2px solid #b31b1b' }}>
                   Order Now
                 </Link>
               </div>

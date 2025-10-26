@@ -314,7 +314,7 @@ const ContactPage = () => {
                     marginBottom: '24px',
                   }}
                 >
-                  <Mail size={24} style={{ color: '#E63946', flexShrink: 0, marginTop: '4px' }} />
+                  <Mail size={24} style={{ color: '#b31b1b', flexShrink: 0, marginTop: '4px' }} />
                   <div>
                     <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Email</h3>
                     <a
@@ -343,7 +343,7 @@ const ContactPage = () => {
                     marginBottom: '24px',
                   }}
                 >
-                  <MapPin size={24} style={{ color: '#E63946', flexShrink: 0, marginTop: '4px' }} />
+                  <MapPin size={24} style={{ color: '#b31b1b', flexShrink: 0, marginTop: '4px' }} />
                   <div>
                     <h3 style={{ fontSize: '18px', marginBottom: '8px' }}>Location</h3>
                     <p style={{ color: '#666', margin: 0 }}>Serving companies globally</p>
@@ -353,14 +353,14 @@ const ContactPage = () => {
 
               <div
                 className="card"
-                style={{ background: '#F5F5F5', border: '2px solid #E63946' }}
+                style={{ background: '#F5F5F5', border: '2px solid #b31b1b' }}
               >
                 <h3 style={{ fontSize: '22px', marginBottom: '16px' }}>Response Time</h3>
                 <p style={{ color: '#666', fontSize: '15px', lineHeight: '1.6', marginBottom: '16px' }}>
                   We typically respond within 24 hours during business days. For urgent hiring needs,
                   please mention "URGENT" in your message subject.
                 </p>
-                <p style={{ color: '#E63946', fontWeight: 600, fontSize: '16px' }}>
+                <p style={{ color: '#b31b1b', fontWeight: 600, fontSize: '16px' }}>
                   Average response time: 4-6 hours
                 </p>
               </div>

@@ -9,7 +9,7 @@ const ATSResumePost = () => {
     <div>
       <Header />
       <div className="container" style={{ maxWidth: '800px', padding: '60px 20px' }}>
-        <Link to="/blog" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: '#E63946', textDecoration: 'none', marginBottom: '32px', fontWeight: 600 }}>
+        <Link to="/blog" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: '#b31b1b', textDecoration: 'none', marginBottom: '32px', fontWeight: 600 }}>
           <ArrowLeft size={20} /> Back to Blog
         </Link>
         <div style={{ marginBottom: '32px' }}>
@@ -49,7 +49,7 @@ const ATSResumePost = () => {
           <p style={{ marginBottom: '24px' }}>
             Before sending your resume anywhere, test it through free ATS checkers online. Or better yet, get expert feedback. We review resumes daily and know exactly what top AI companies are looking for.
           </p>
-          <div style={{ marginTop: '64px', padding: '32px', background: '#F5F5F5', borderRadius: '12px', borderLeft: '4px solid #E63946' }}>
+          <div style={{ marginTop: '64px', padding: '32px', background: '#F5F5F5', borderRadius: '12px', borderLeft: '4px solid #b31b1b' }}>
             <h3 style={{ fontSize: '24px', marginBottom: '16px' }}>Get Your Free Resume Review</h3>
             <p style={{ marginBottom: '24px', fontSize: '16px' }}>
               Upload your resume and get expert feedback within 24 hours. No strings attached.

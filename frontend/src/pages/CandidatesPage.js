@@ -83,10 +83,10 @@ const CandidatesPage = () => {
                 className="card"
                 style={{ textDecoration: 'none', color: 'inherit' }}
               >
-                <div style={{ color: '#E63946', marginBottom: '20px' }}>{resource.icon}</div>
+                <div style={{ color: '#b31b1b', marginBottom: '20px' }}>{resource.icon}</div>
                 <h3 style={{ fontSize: '24px', marginBottom: '16px' }}>{resource.title}</h3>
                 <p style={{ color: '#666', fontSize: '16px', lineHeight: '1.6' }}>{resource.desc}</p>
-                <div style={{ color: '#E63946', fontWeight: 600, marginTop: '20px' }}>
+                <div style={{ color: '#b31b1b', fontWeight: 600, marginTop: '20px' }}>
                   Explore →
                 </div>
               </Link>
@@ -105,7 +105,7 @@ const CandidatesPage = () => {
         }}
       >
         <div className="container" style={{ textAlign: 'center', maxWidth: '700px', margin: '0 auto' }}>
-          <Heart size={60} style={{ color: '#E63946', marginBottom: '24px' }} />
+          <Heart size={60} style={{ color: '#b31b1b', marginBottom: '24px' }} />
           <h2 style={{ fontSize: 'clamp(28px, 4vw, 38px)', marginBottom: '24px' }}>
             Been Laid Off?
           </h2>
@@ -169,7 +169,7 @@ const CandidatesPage = () => {
                 >
                   "{testimonial.quote}"
                 </p>
-                <p style={{ fontSize: '14px', fontWeight: 600, color: '#E63946' }}>
+                <p style={{ fontSize: '14px', fontWeight: 600, color: '#b31b1b' }}>
                   — {testimonial.author}
                 </p>
               </div>

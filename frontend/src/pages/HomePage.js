@@ -66,7 +66,7 @@ const HomePage = () => {
               <span
                 data-testid="rotating-industry"
                 style={{
-                  color: '#E63946',
+                  color: '#b31b1b',
                   display: 'inline-block',
                   minWidth: '200px',
                   transition: 'opacity 0.5s',
@@ -127,7 +127,7 @@ const HomePage = () => {
                 className="card"
                 style={{ textAlign: 'center' }}
               >
-                <div style={{ color: '#E63946', marginBottom: '16px' }}>{prop.icon}</div>
+                <div style={{ color: '#b31b1b', marginBottom: '16px' }}>{prop.icon}</div>
                 <h3 style={{ fontSize: '22px', marginBottom: '12px' }}>{prop.title}</h3>
                 <p style={{ color: '#666', fontSize: '15px' }}>{prop.desc}</p>
               </div>
@@ -151,25 +151,25 @@ const HomePage = () => {
               }}
             >
               <div data-testid="stat-engineers-placed">
-                <div style={{ fontSize: '48px', fontWeight: 700, color: '#E63946', marginBottom: '8px' }}>
+                <div style={{ fontSize: '48px', fontWeight: 700, color: '#b31b1b', marginBottom: '8px' }}>
                   {stats.engineers_placed}+
                 </div>
                 <div style={{ fontSize: '16px', color: '#666' }}>Engineers Placed (Q4 2025)</div>
               </div>
               <div data-testid="stat-time-to-offer">
-                <div style={{ fontSize: '48px', fontWeight: 700, color: '#E63946', marginBottom: '8px' }}>
+                <div style={{ fontSize: '48px', fontWeight: 700, color: '#b31b1b', marginBottom: '8px' }}>
                   {stats.avg_time_to_offer} Days
                 </div>
                 <div style={{ fontSize: '16px', color: '#666' }}>Average Time-to-Offer</div>
               </div>
               <div data-testid="stat-acceptance-rate">
-                <div style={{ fontSize: '48px', fontWeight: 700, color: '#E63946', marginBottom: '8px' }}>
+                <div style={{ fontSize: '48px', fontWeight: 700, color: '#b31b1b', marginBottom: '8px' }}>
                   {stats.offer_acceptance_rate}%
                 </div>
                 <div style={{ fontSize: '16px', color: '#666' }}>Offer Acceptance Rate</div>
               </div>
               <div data-testid="stat-retention">
-                <div style={{ fontSize: '48px', fontWeight: 700, color: '#E63946', marginBottom: '8px' }}>
+                <div style={{ fontSize: '48px', fontWeight: 700, color: '#b31b1b', marginBottom: '8px' }}>
                   {stats.client_retention}%
                 </div>
                 <div style={{ fontSize: '16px', color: '#666' }}>Client Retention</div>
@@ -206,9 +206,9 @@ const HomePage = () => {
                 className="card"
                 style={{ textDecoration: 'none', color: 'inherit' }}
               >
-                <div style={{ color: '#E63946', marginBottom: '16px' }}>{service.icon}</div>
+                <div style={{ color: '#b31b1b', marginBottom: '16px' }}>{service.icon}</div>
                 <h3 style={{ fontSize: '22px', marginBottom: '12px' }}>{service.title}</h3>
-                <div style={{ color: '#E63946', fontWeight: 600, marginTop: '16px' }}>
+                <div style={{ color: '#b31b1b', fontWeight: 600, marginTop: '16px' }}>
                   Learn More <ArrowRight size={16} style={{ display: 'inline', marginLeft: '4px' }} />
                 </div>
               </Link>

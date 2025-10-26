@@ -39,7 +39,7 @@ const CareersPage = () => {
           >
             Help Us Build the Future
             <br />
-            <span style={{ color: '#E63946' }}>of Hiring</span>
+            <span style={{ color: '#b31b1b' }}>of Hiring</span>
           </h1>
           <p
             style={{
@@ -76,7 +76,7 @@ const CareersPage = () => {
           >
             {values.map((value, index) => (
               <div key={index} data-testid={`value-${index}`} className="card" style={{ textAlign: 'center' }}>
-                <div style={{ color: '#E63946', marginBottom: '20px' }}>{value.icon}</div>
+                <div style={{ color: '#b31b1b', marginBottom: '20px' }}>{value.icon}</div>
                 <h3 style={{ fontSize: '24px', marginBottom: '16px' }}>{value.title}</h3>
                 <p style={{ color: '#666', fontSize: '16px', lineHeight: '1.6' }}>{value.desc}</p>
               </div>
@@ -102,7 +102,7 @@ const CareersPage = () => {
           </p>
 
           <div className="card" style={{ textAlign: 'left', marginBottom: '32px' }}>
-            <h3 style={{ fontSize: '20px', marginBottom: '12px', color: '#E63946' }}>
+            <h3 style={{ fontSize: '20px', marginBottom: '12px', color: '#b31b1b' }}>
               Note: ATS Integration Coming Soon
             </h3>
             <p style={{ fontSize: '16px', color: '#666', marginBottom: '16px' }}>
