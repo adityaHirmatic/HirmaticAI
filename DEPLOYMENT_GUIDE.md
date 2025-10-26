@@ -12,7 +12,7 @@ I've built the complete Hirmatic website with React + FastAPI + MongoDB. Everyth
 ✅ **12 Pages**: Home, About, Employers, Candidates, Contact, Resume Upload, Careers, Blog, 4 Service Pages, Salary Calculator  
 ✅ **6 Blog Posts**: Full 2000+ word articles (4 B2B, 2 B2C)  
 ✅ **Interactive Features**: Employer quiz, salary calculator, contact forms, resume upload  
-✅ **Modern Design**: Professional UI with your brand colors (Obsidian Black, Crimson Red, Soft Teal)  
+✅ **Modern Design**: Professional UI with your brand colors (Obsidian Black, Carnelian, Soft Teal)  
 ✅ **Mobile Responsive**: Works beautifully on all devices  
 ✅ **Lead Scoring**: Automatic intent scoring for contact submissions  
 ✅ **Form Handling**: Contact forms and resume uploads with backend processing  
