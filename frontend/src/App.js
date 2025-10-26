@@ -1,52 +1,64 @@
-import { useEffect } from "react";
-import "@/App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import axios from "axios";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Toaster } from '@/components/ui/sonner';
+import '@/App.css';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const API = `${BACKEND_URL}/api`;
+// Pages
+import HomePage from '@/pages/HomePage';
+import AboutPage from '@/pages/AboutPage';
+import EmployersPage from '@/pages/EmployersPage';
+import CandidatesPage from '@/pages/CandidatesPage';
+import ContactPage from '@/pages/ContactPage';
+import UploadResumePage from '@/pages/UploadResumePage';
+import CareersPage from '@/pages/CareersPage';
+import BlogPage from '@/pages/BlogPage';
+import RecruitingPage from '@/pages/services/RecruitingPage';
+import FractionalCHROPage from '@/pages/services/FractionalCHROPage';
+import ResumeBuildingPage from '@/pages/services/ResumeBuildingPage';
+import LayoffSupportPage from '@/pages/services/LayoffSupportPage';
+import SalaryCalculatorPage from '@/pages/tools/SalaryCalculatorPage';
 
-const Home = () => {
-  const helloWorldApi = async () => {
-    try {
-      const response = await axios.get(`${API}/`);
-      console.log(response.data.message);
-    } catch (e) {
-      console.error(e, `errored out requesting / api`);
-    }
-  };
-
-  useEffect(() => {
-    helloWorldApi();
-  }, []);
-
-  return (
-    <div>
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://emergent.sh"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://avatars.githubusercontent.com/in/1201222?s=120&u=2686cf91179bbafbc7a71bfbc43004cf9ae1acea&v=4" />
-        </a>
-        <p className="mt-5">Building something incredible ~!</p>
-      </header>
-    </div>
-  );
-};
+// Blog Posts
+import AIRecruitingPost from '@/pages/blog-posts/AIRecruitingPost';
+import HRTechPost from '@/pages/blog-posts/HRTechPost';
+import HybridHiringPost from '@/pages/blog-posts/HybridHiringPost';
+import EmployerBrandPost from '@/pages/blog-posts/EmployerBrandPost';
+import ATSResumePost from '@/pages/blog-posts/ATSResumePost';
+import LayoffComebackPost from '@/pages/blog-posts/LayoffComebackPost';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}>
-            <Route index element={<Home />} />
-          </Route>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/employers" element={<EmployersPage />} />
+          <Route path="/candidates" element={<CandidatesPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/upload-resume" element={<UploadResumePage />} />
+          <Route path="/careers" element={<CareersPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          
+          {/* Services */}
+          <Route path="/services/recruiting" element={<RecruitingPage />} />
+          <Route path="/services/fractional-chro" element={<FractionalCHROPage />} />
+          <Route path="/services/resume-building" element={<ResumeBuildingPage />} />
+          <Route path="/services/layoff-support" element={<LayoffSupportPage />} />
+          
+          {/* Tools */}
+          <Route path="/tools/salary-calculator" element={<SalaryCalculatorPage />} />
+          
+          {/* Blog Posts */}
+          <Route path="/blog/ai-recruiting-precision" element={<AIRecruitingPost />} />
+          <Route path="/blog/hr-tech-ai-workforce" element={<HRTechPost />} />
+          <Route path="/blog/hybrid-hiring-systems" element={<HybridHiringPost />} />
+          <Route path="/blog/employer-brand-aeo" element={<EmployerBrandPost />} />
+          <Route path="/blog/ats-proof-resume-ai" element={<ATSResumePost />} />
+          <Route path="/blog/layoff-comeback-plan" element={<LayoffComebackPost />} />
         </Routes>
       </BrowserRouter>
+      <Toaster position="top-right" />
     </div>
   );
 }
