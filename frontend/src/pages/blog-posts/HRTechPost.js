@@ -14,8 +14,8 @@ const HRTechPost = () => {
         </Link>
         
         <div style={{ marginBottom: '32px' }}>
-          <div style={{ display: 'inline-block', background: '#E63946', color: '#FFFFFF', padding: '6px 16px', borderRadius: '4px', fontSize: '14px', fontWeight: 600', marginBottom: '16px' }}>
-            B2B • January 2025
+          <div style={{ display: 'inline-block', background: '#E63946', color: '#FFFFFF', padding: '6px 16px', borderRadius: '4px', fontSize: '14px', fontWeight: 600, marginBottom: '16px' }}>
+            B2B | January 2025
           </div>
           <h1 style={{ fontSize: 'clamp(32px, 5vw, 48px)', marginBottom: '16px', lineHeight: '1.2' }}>
             How HR Tech is Powering the AI Workforce Revolution
