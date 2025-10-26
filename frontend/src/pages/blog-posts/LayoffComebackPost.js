@@ -14,7 +14,7 @@ const LayoffComebackPost = () => {
         </Link>
         <div style={{ marginBottom: '32px' }}>
           <div style={{ display: 'inline-block', background: '#A8DADC', color: '#0A0A0A', padding: '6px 16px', borderRadius: '4px', fontSize: '14px', fontWeight: 600, marginBottom: '16px' }}>
-            B2C • January 2025
+            B2C | January 2025
           </div>
           <h1 style={{ fontSize: 'clamp(32px, 5vw, 48px)', marginBottom: '16px', lineHeight: '1.2' }}>
             Laid Off from Tech? Your 30-Day Career Comeback Plan
