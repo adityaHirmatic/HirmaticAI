@@ -64,6 +64,11 @@ class ResumeSubmission(BaseModel):
     filepath: str
     timestamp: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
+class QuizInput(BaseModel):
+    timeline: str
+    domain: str
+    stage: str
+
 class QuizResult(BaseModel):
     timeline: str
     domain: str
@@ -201,7 +206,7 @@ async def upload_resume(
         raise HTTPException(status_code=500, detail="Failed to upload resume")
 
 @api_router.post("/quiz/calculate")
-async def calculate_quiz(result: QuizResult):
+async def calculate_quiz(quiz_input: QuizInput):
     try:
         score = 0
         
@@ -211,10 +216,10 @@ async def calculate_quiz(result: QuizResult):
             "planned": 25,
             "strategic": 10
         }
-        score += timeline_scores.get(result.timeline.lower(), 0)
+        score += timeline_scores.get(quiz_input.timeline.lower(), 0)
         
         # Domain scoring
-        if result.domain.lower() == "multiple":
+        if quiz_input.domain.lower() == "multiple":
             score += 20
         else:
             score += 15
@@ -226,7 +231,7 @@ async def calculate_quiz(result: QuizResult):
             "series b+": 30,
             "scale-up": 35
         }
-        score += stage_scores.get(result.stage.lower(), 0)
+        score += stage_scores.get(quiz_input.stage.lower(), 0)
         
         # Determine level and recommendation
         if score >= 70:
